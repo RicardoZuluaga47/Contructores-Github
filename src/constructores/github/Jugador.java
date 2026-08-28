@@ -19,4 +19,16 @@ public class Jugador extends Personajes{
     
     public Jugador(){        
     }
+    
+    public double getExperiencia(){
+        return experiencia;
+    }
+
+    public int getDinero(){
+        return dinero;
+    }
+
+    public String getClase(){
+        return clase;
+    }
 }
