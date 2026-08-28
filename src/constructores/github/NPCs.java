@@ -18,4 +18,16 @@ public class NPCs extends Personajes{
     
     public NPCs(){        
     }
+    
+    public String getProfecion(){
+        return profecion;
+    }
+
+    public boolean getInteraccion(){
+        return interaccion;
+    }
+
+    public int getAmistad(){
+        return amistad;
+    }
 }
