@@ -64,6 +64,27 @@ public class ConstructoresGithub {
         System.out.println("Raza: "+enemigo3.getRaza()+"   |   Recompensa: "+enemigo3.getRecompensa());
         System.out.println("Jefe: "+enemigo3.getJefe());
         System.out.println("------------------------------------------------");
-
+        
+        NPCs NPC1 = new NPCs();
+        NPCs NPC2 = new NPCs("Victor", 100.0, "Mercader");
+        NPCs NPC3 = new NPCs(150.0, 20, "Heimer", 20.0, "Armero", true, 18);
+        
+        System.out.println("NPC 1");
+        System.out.println("Nombre: "+NPC1.getNombre()+"   |   Nivel: "+NPC1.getNivel());
+        System.out.println("Vida: "+NPC1.getVida()+"   |   Dano: "+NPC1.getDaño());
+        System.out.println("Interaccion: "+NPC1.getInteraccion()+"   |   Profesion: "+NPC1.getProfecion());
+        System.out.println("Amistad: "+NPC1.getAmistad());
+        System.out.println("------------------------------------------------");
+        System.out.println("NPC 2");
+        System.out.println("Nombre: "+NPC2.getNombre()+"   |   Nivel: "+NPC2.getNivel());
+        System.out.println("Vida: "+NPC2.getVida()+"   |   Dano: "+NPC2.getDaño());
+        System.out.println("Interaccion: "+NPC2.getInteraccion()+"   |   Profesion: "+NPC2.getProfecion());
+        System.out.println("Amistad: "+NPC2.getAmistad());
+        System.out.println("------------------------------------------------");
+        System.out.println("NPC 3");
+        System.out.println("Nombre: "+NPC3.getNombre()+"   |   Nivel: "+NPC3.getNivel());
+        System.out.println("Vida: "+NPC3.getVida()+"   |   Dano: "+NPC3.getDaño());
+        System.out.println("Interaccion: "+NPC3.getInteraccion()+"   |   Profesion: "+NPC3.getProfecion());
+        System.out.println("Amistad: "+NPC3.getAmistad());
     }   
 }
