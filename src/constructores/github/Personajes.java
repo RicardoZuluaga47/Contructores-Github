@@ -20,4 +20,19 @@ public class Personajes {
     public Personajes(){        
     }
     
+    public double getVida(){
+        return vida;
+    }
+
+    public int getNivel(){
+        return nivel;
+    }
+
+    public String getNombre(){
+        return nombre;
+    }
+    
+    public double getDaño(){
+        return daño;
+    }
 }
