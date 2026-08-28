@@ -41,5 +41,29 @@ public class ConstructoresGithub {
         System.out.println("Clase: "+jugador3.getClase()+"   |   Dinero: "+jugador3.getDinero());
         System.out.println("XP: "+jugador3.getExperiencia());
         System.out.println("------------------------------------------------");
+        
+        Enemigos enemigo1 = new Enemigos();
+        Enemigos enemigo2 = new Enemigos("Golman", 75.0, "Goblin");
+        Enemigos enemigo3 = new Enemigos(1000.0, 40, "Valnio", 45.0, "Goblin", true, 350);
+        
+        System.out.println("Enemigo 1");
+        System.out.println("Nombre: "+enemigo1.getNombre()+"   |   Nivel: "+enemigo1.getNivel());
+        System.out.println("Vida: "+enemigo1.getVida()+"   |   Dano: "+enemigo1.getDaño());
+        System.out.println("Raza: "+enemigo1.getRaza()+"   |   Recompensa: "+enemigo1.getRecompensa());
+        System.out.println("Jefe: "+enemigo1.getJefe());
+        System.out.println("------------------------------------------------");
+        System.out.println("Enemigo 2");
+        System.out.println("Nombre: "+enemigo2.getNombre()+"   |   Nivel: "+enemigo2.getNivel());
+        System.out.println("Vida: "+enemigo2.getVida()+"   |   Dano: "+enemigo2.getDaño());
+        System.out.println("Raza: "+enemigo2.getRaza()+"   |   Recompensa: "+enemigo2.getRecompensa());
+        System.out.println("Jefe: "+enemigo2.getJefe());
+        System.out.println("------------------------------------------------");
+        System.out.println("Enemigo 3");
+        System.out.println("Nombre: "+enemigo3.getNombre()+"   |   Nivel: "+enemigo3.getNivel());
+        System.out.println("Vida: "+enemigo3.getVida()+"   |   Dano: "+enemigo3.getDaño());
+        System.out.println("Raza: "+enemigo3.getRaza()+"   |   Recompensa: "+enemigo3.getRecompensa());
+        System.out.println("Jefe: "+enemigo3.getJefe());
+        System.out.println("------------------------------------------------");
+
     }   
 }
