@@ -18,4 +18,16 @@ public class Enemigos extends Personajes{
     
     public Enemigos(){        
     }
+    
+    public String getRaza(){
+        return raza;
+    }
+
+    public boolean getJefe(){
+        return jefe;
+    }
+
+    public int getRecompensa(){
+        return recompensa;
+    }
 }
